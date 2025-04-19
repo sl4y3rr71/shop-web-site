@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Страница товара</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="image/logo.jpg" alt="Логотип Магазина Одежды">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О нас и Контакты</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+            </ul>
+        </nav>
+        <div class="auth-cart">
+            <a href="auth.html" class="auth-btn">Вход / Регистрация</a>
+            <a href="cart.html" class="cart-btn">
+                <img src="image/korzina.png" alt="Корзина">
+            </a>
+        </div>
+    </header>
+    <main>
+        <section class="product-details" style="display: flex;">
+            <div class="product-images" style="flex: 1; padding-right: 20px;">
+                <button id="prev-image">←</button>
+                <img src="" alt="Изображение товара" id="product-image" >
+                <button id="next-image">→</button>
+            </div>
+            <div class="product-info" style="flex: 2;">
+                <h1 id="product-name"></h1>
+                <p class="price" id="product-price"></p>
+                <p id="product-description"></p>
+                <div class="size-selector">
+                    <label for="size">Выберите размер:</label>
+                    <select id="size"></select>
+                </div>
+                <button class="add-to-cart" id="add-to-cart-btn">Добавить в корзину</button>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <p>© 2025 Магазин одежды. Все права защищены.</p>
+    </footer>
+    <script src="js/product.js"></script>
+</body>
+</html>
