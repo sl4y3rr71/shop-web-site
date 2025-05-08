@@ -12,13 +12,26 @@ document.addEventListener("DOMContentLoaded", function() {
     
     },
     {
-        name: "Christian Dior Paris Puffer Jacket",
-        price: 125000,
-        images: ["image/jackets/jacket2_alt.jpg", "image/jackets/jacket2_alt2.jpg","image/jackets/jacket2_alt3.jpg"],
-        description: "Незаменимая женская классика. Уютный и теплый пуховик.",
-        sizes: ["M", "L", "XL"]
+            name: "Christian Dior Paris Puffer Jacket",
+            price: 125000,
+            images: ["image/jackets/jacket2_alt.jpg", "image/jackets/jacket2_alt2.jpg","image/jackets/jacket2_alt3.jpg"],
+            description: "Незаменимая женская классика. Уютный и теплый пуховик.",
+            sizes: ["M", "L", "XL"]
     },
-
+    {
+            name: "Enfants Riches Deprimes Jacket",
+            price: 82000,
+            images: ["image/jackets/jacket3_alt.jpg","image/jackets/jacket3_alt2.jpg", "image/jackets/jacket3_alt3.jpg"],
+            description: "Куртка анорак, бокси фит, крайне редкая модель.",
+            sizes: ["S", "M", "XL"]
+    },
+    {
+            name: "Enfants Riches Deprimes Overdose Puppy Hoodie",
+            price: 180000,
+            images: ["image/hoodie/hoodie1_alt.jpg","image/hoodie/hoodie1_alt2.jpg", "image/hoodie/hoodie1_alt3.jpg"],
+            description: "Айконик вещь от Enfants Riches Deprimes, из коллекции FW18, принт в стилистике бренда, имеет бокси фит.",
+            sizes: ["M", "L", "XL"]
+    },
     {
         name: "Balenciaga Cargo Transformer",
         price: 37500,
@@ -26,7 +39,6 @@ document.addEventListener("DOMContentLoaded", function() {
         description: "Унисекс джинсы, разбираемые на три составляющих.Полноценные брюки, длинные шорты, короткие шорты.Культовые джинсы, ведь удобнее этой конструкции врятли можно что-то придумать.Подходят под любые сценарии носки!",
         sizes: ["28", "30", "32"]
     },
-
     {
         name: "Balenciaga Distressed Pants",
         price: 65500,
@@ -34,7 +46,6 @@ document.addEventListener("DOMContentLoaded", function() {
         description: "Унисекс джинсы с сумасшедшим кроем.Посадка выделит вас из любой толпы, вы будете номер один в них.Мягкий, но плотный материал.Заводской Дистресс эффект.",
         sizes: ["26", "28", "30"]
     },
-
     {
         name: "Vetements Tape Pants",
         price: 14500,
@@ -42,7 +53,6 @@ document.addEventListener("DOMContentLoaded", function() {
         description: "Унисекс штаны из плотного хлопка.Подойдут для всех сценариев носки.Уютные, тянутся, классно сидят.",
         sizes: ["46", "48", "50"]
     },
-
     {
         name: "Штаны 2",
         price: 0,
@@ -50,15 +60,13 @@ document.addEventListener("DOMContentLoaded", function() {
         description: "-",
         sizes: ["44", "46", "48"]
     },
-
     {
         name: "Balenciaga Oversize Sweatshirt",
         price: 27500,
-        images: ["image/sweaters/sweater1.jpg", "image/sweaters/sweater1_alt.jpg", "image/sweaters/sweater1_alt1.jpg", "image/sweaters/sweater1_alt2.jpg"],
+        images: ["image/sweaters/sweater1_alt.jpg", "image/sweaters/sweater1_alt2.jpg", "image/sweaters/sweater1_alt3.jpg"],
         description: ["Унисекс, плотный флисо-хлопковый свитшот.Имеются подвязки на поясе и позволяют создавать любо длину,уютная кофта для любого сценария носки."],
         sizes: ["S", "M", "L", "XL"]
     },
-
     {
         name: "Кофта 2",
         price: 0,
@@ -66,7 +74,6 @@ document.addEventListener("DOMContentLoaded", function() {
         description: "Кофта 2",
         sizes: ["M", "L", "XL"]
     },
-
     {
         name: "Balenciaga Crystal Logo Tee",
         price: 24500,
@@ -84,8 +91,8 @@ document.addEventListener("DOMContentLoaded", function() {
     {
         name: "Balenciaga PS5 Crop Hoodie",
         price: 46500,
-        images: ["image/jackets/jacket2_alt.jpg", "image/jackets/jacket2_alt2.jpg","image/jackets/jacket2_alt3.jpg"],
-        description: "Незаменимая женская классика. Уютный и теплый пуховик.",
+        images: ["image/hoodie/hoodie2_alt.jpg", "image/hoodie/hoodie2_alt2.jpg","image/hoodie/hoodie2_alt3.jpg"],
+        description: "Унисекс худи в идеальном состоянии. Мягкая ткань близка на ощуп к микрофибре.",
         sizes: ["M", "L", "XL"]
     },
 

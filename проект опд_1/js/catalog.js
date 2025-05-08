@@ -17,6 +17,30 @@ document.addEventListener("DOMContentLoaded", function() {
             sizes: ["M", "L", "XL"]
         },
         {
+            name: "Enfants Riches Deprimes Jacket",
+            category: "jackets",
+            price: 82000,
+            image: "image/jackets/jacket3_alt.jpg",
+            description: "Куртка анорак, бокси фит, крайне редкая модель.",
+            sizes: ["M", "L", "XL"]
+        },
+        {
+            name: "Enfants Riches Deprimes Overdose Puppy Hoodie",
+            category: "hoodie",
+            price: 180000,
+            image: "image/hoodie/hoodie1_alt.jpg",
+            description: "Айконик вещь от Enfants Riches Deprimes, из коллекции FW18, принт в стилистике бренда, имеет бокси фит.",
+            sizes: ["M", "L", "XL"]
+        },
+        {
+            name: "Balenciaga PS5 Crop Hoodie",
+            category: "hoodie",
+            price: 46500,
+            image: "image/hoodie/hoodie2_alt.jpg",
+            description: "Унисекс худи в идеальном состоянии. Мягкая ткань близка на ощуп к микрофибре.",
+            sizes: ["M", "L", "XL"]
+        },
+        {
             name: "Balenciaga Cargo Transformer",
             category: "jeans",
             price: 37500,
@@ -52,7 +76,7 @@ document.addEventListener("DOMContentLoaded", function() {
             name: "Balenciaga Oversize Sweatshirt",
             category: "sweaters",
             price: 27500,
-            image: "image/sweaters/sweater1.jpg",
+            image: "image/sweaters/sweater1_alt.jpg",
             description: "Унисекс, плотный флисо-хлопковый свитшот.",
             sizes: ["S", "M", "L", "XL"]
         },
