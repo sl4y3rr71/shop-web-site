@@ -8,7 +8,7 @@ function updateCartDisplay() {
         const itemElement = document.createElement('div');
         itemElement.classList.add('cart-item');
         itemElement.innerHTML = `
-            <img src="${item.image}" alt="${item.name}" style="width: 400px; height: auto;">
+            <img src="${item.image}" alt="${item.name}" style="width: 250px; height: auto;">
 
             <h3>${item.name}</h3>
             <p>Цена: ${item.price} руб.</p>
@@ -27,7 +27,13 @@ function clearCart() {
 document.addEventListener('DOMContentLoaded', function() {
     updateCartDisplay();
 
-
     const clearCartBtn = document.querySelector('.clear-cart-btn');
     clearCartBtn.addEventListener('click', clearCart);
+
+    const checkoutBtn = document.querySelector('.checkout-btn');
+    if (checkoutBtn) {
+        checkoutBtn.addEventListener('click', function() {
+            window.location.href = 'payment.html';
+        });
+    }
 });

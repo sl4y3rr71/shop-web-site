@@ -51,14 +51,28 @@ document.addEventListener("DOMContentLoaded", function() {
         price: 14500,
         images: ["image/pants/pants1_alt.jpg", "image/pants/pants1_alt2.jpg", "image/pants/pants1_alt3.jpg", "image/pants/pants1_alt4.jpg"],
         description: "Унисекс штаны из плотного хлопка.Подойдут для всех сценариев носки.Уютные, тянутся, классно сидят.",
-        sizes: ["46", "48", "50"]
+        sizes: ["26", "28", "30"]
     },
     {
-        name: "Штаны 2",
-        price: 0,
-        images: ["image/photo.jpg"],
-        description: "-",
-        sizes: ["44", "46", "48"]
+        name: "Balenciaga Monogram Oversize Viscose Pants",
+        price: 41000,
+        images: ["image/pants/pants2_alt.jpg","image/pants/pants2_alt2.jpg","image/pants/pants2_alt3.jpg"],
+        description: "Унисекс наитончайшие штаны из вискозы.Выглядят как пижама.Безумно красивые, эффектные штаны.Хоть бренд и заигрывает с домашней одеждой, но их можно, и даже нужно брать на выходы, притягивают много взглядов.Очень длинные, можно играться с обувью заправлять из или просто оставлять болтаться и создавать различные формы.Выполнены полностью из вискозы, а значит идеально продуваются и дышат, на теле не ощущаются вовсе! ",
+        sizes: ["24", "26", "28"]
+    },
+    {
+        name: "Rick Owens Track Full Zip Pants",
+        price: 42000,
+        images: ["image/pants/pants3_alt.jpg","image/pants/pants3_alt2.jpg","image/pants/pants3_alt3.jpg"],
+        description: "Унисекс штаны с большими молниями по внешнему шву обоих штанин.Свободные, приятные, максимально уютные.Под любой сценарий носки.",
+        sizes: ["24", "26", "28"]
+    },
+    {
+        name: "Enfants Riches Deprimes Murder Trial Menendez",
+        price: 160000,
+        images: ["image/pants/pants4_alt.jpg","image/pants/pants4_alt2.jpg","image/pants/pants4_alt3.jpg"],
+        description: "Культовая работа Генри Леви, за которой охотятся многие фанаты бренда, это история про двух истории двух братьев убийц: Эрику и Лайлу Менендес. “Эрик Менендес,  Лайл Менендес - американские убийцы, родные братья, которые 20 августа 1989 из корыстных побуждений совершили убийство своих родителей и скрывавшие убийство пол года, с целью унаследовать многомиллионное состояние своего отца",
+        sizes: ["24", "26", "28"]
     },
     {
         name: "Balenciaga Oversize Sweatshirt",
@@ -68,10 +82,17 @@ document.addEventListener("DOMContentLoaded", function() {
         sizes: ["S", "M", "L", "XL"]
     },
     {
-        name: "Кофта 2",
-        price: 0,
-        images: ["image/photo.jpg"],
-        description: "Кофта 2",
+        name: "Vetements Main Stream Turtlneck",
+        price: 26500,
+        images: ["image/sweaters/sweater3_alt.jpg","image/sweaters/sweater3_alt2.jpg","image/sweaters/sweater3_alt3.jpg"],
+        description: "Унисекс, слегка обтягивающая водолазка.Идеальное состояние.Сильно тянется и подходит на любое телосложение.Лаконичный дизайн.На вороте принт с двух сторон..",
+        sizes: ["M", "L", "XL"]
+    },
+    {
+        name: "Givenchy I Feel Love Sweater",
+        price: 36000,
+        images: ["image/sweaters/sweater2_alt.jpg","image/sweaters/sweater2_alt2.jpg","image/sweaters/sweater2_alt3.jpg"],
+        description: "Унисекс крупно-вязанный плотный свитер.Длина по спинке - 75 см.Ширина в подмышках - 52 см.",
         sizes: ["M", "L", "XL"]
     },
     {
@@ -82,21 +103,68 @@ document.addEventListener("DOMContentLoaded", function() {
         sizes: ["S", "M", "L"]
     },
     {
-        name: "Rick Owens Shied Sunglasses",
-        price: 38500,
-        images: ["image/accessories/accessories_alt.jpg", "image/accessories/accessories_alt2.jpg", "image/accessories/accessories_alt3.jpg", "image/accessories/accessories_alt4.jpg"],
-        description: "Унисекс солнечные очки в неповторимом дизайне.Богатый комплект с большим чехлом.",
-        sizes: ["ONE SIZE"]
-    },
-    {
         name: "Balenciaga PS5 Crop Hoodie",
         price: 46500,
         images: ["image/hoodie/hoodie2_alt.jpg", "image/hoodie/hoodie2_alt2.jpg","image/hoodie/hoodie2_alt3.jpg"],
         description: "Унисекс худи в идеальном состоянии. Мягкая ткань близка на ощуп к микрофибре.",
         sizes: ["M", "L", "XL"]
     },
-
- 
+    {
+        name: "Gallery Dept x Art That Kills",
+        price: 180000,
+        images: ["image/hoodie/hoodie3_alt.jpg", "image/hoodie/hoodie3_alt2.jpg","image/hoodie/hoodie3_alt3.jpg"],
+        description: "Довольная редкая модель, капюшон с ворсом и studded элементами, на локтях кожаные вставки, также на рукавах есть studded элементы",
+        sizes: ["M", "L", "XL"]
+    },
+    {
+        name: "Balenciaga Metal Tee",
+        price: 44500,
+        images: ["image/t-shirts/t-shirts2_alt.jpg", "image/t-shirts/t-shirts2_alt2.jpg", "image/t-shirts/t-shirts2_alt3.jpg"],
+        description: "Унисекс футболка из нежного материала.Посадка, стандартная, не длинная но широкая, для любого телосложения.Небольшой эффект потрепанности с завода, выраженный в принте.Эксклюзив для РФ.",
+        sizes: ["S", "M", "L"]
+    },
+    {
+        name: "Saint Laurent Paris Punch",
+        price: 44500,
+        images: ["image/shoes/shoes_alt.jpg", "image/shoes/shoes_alt2.jpg", "image/shoes/shoes_alt3.jpg"],
+        description: "Довольно редкая пара, кеды очень легкие, не чувствуются на ногах, идеальный вариант на весну/лето.",
+        sizes: ["42", "43", "44"]
+    },
+    {
+        name: "Enfants Riches Deprimes Cowboy",
+        price: 75000,
+        images: ["image/shoes/shoes2_alt.jpg", "image/shoes/shoes2_alt2.jpg", "image/shoes/shoes2_alt3.jpg"],
+        description: "Казаки от Enfants Riches Deprimes , в стиле вестерна, эксклюзив для Mr.Porter, поставлена профилактика Vibram.",
+        sizes: ["43", "44", "45"]
+    },
+    {
+        name: "Enfants Riches Deprimes Gun Girl Hoodie ",
+        price: 190000,
+        images: ["image/hoodie/hoodie4_alt.jpg", "image/hoodie/hoodie4_alt2.jpg","image/hoodie/hoodie4_alt3.jpg"],
+        description: "Очень редкий худи, меньше 30 штук на весь мир, есть в личном гардеробе у Генри Леви, можно считать граалем.",
+        sizes: ["M", "L"]
+    },
+    {
+        name: "Enfants Riches Deprimes “EGOISTE” Tee",
+        price: 190000,
+        images: ["image/t-shirts/t-shirts3_alt.jpg", "image/t-shirts/t-shirts3_alt2.jpg", "image/t-shirts/t-shirts3_alt3.jpg"],
+        description: "Очень редкая футболка, из самых первых коллекций, была на Maxfielda, Максфилд это магазин где выставляются самые редкие вещи и происходит аукцион, считается святым граалем.",
+        sizes: ["M", "L"]
+    },
+    {
+        name: "Enfants Riches Deprimes Jesus says, “NO”",
+        price: 90000,
+        images: ["image/t-shirts/t-shirts4_alt.jpg", "image/t-shirts/t-shirts4_alt2.jpg", "image/t-shirts/t-shirts4_alt3.jpg"],
+        description: "На футболке изображены, панки один из них держит святую библию, но она перевернута. Перевернутый крест используются в качестве антихристианского символа и символа сатанизма, на принте написано, что Иисус умер за наши грехи, начните молиться, бог сказал «нет», следуйте за ним, футболка довольна редкая.",
+        sizes: ["M"]
+    },
+    {
+        name: "Rick Owens Geobasket 2013",
+        price: 45000,
+        images: ["image/shoes/shoes3_alt.jpg", "image/shoes/shoes3_alt2.jpg", "image/shoes/shoes3_alt3.jpg"],
+        description: "Пара отличается от новых коллекций тем, что сделана из более качественной кожи, стоит дорогая профилактика Vibram, подошва менялась так как паре 11 лет..",
+        sizes: ["43","44","45"]
+    },
     ];
 
     const product = products.find(p => p.name === productId);
